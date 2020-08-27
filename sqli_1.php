@@ -36,6 +36,7 @@ function sqli($data)
         case "1" :
 
             $data = sqli_check_1($data);
+            echo $data;
             break;
 
         case "2" :
